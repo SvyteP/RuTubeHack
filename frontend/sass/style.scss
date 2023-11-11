@@ -1,0 +1,95 @@
+@import "./variables";
+@import "./base";
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem 5rem;
+	background-color: $asphalt;
+
+	h1 {
+		padding: 1rem 1.5rem;
+		color: $white;
+		font-size: 3.2rem;
+		transition: .3s ease-in-out;
+		border-radius: 1rem;
+		cursor: default;
+
+		span {
+			color: $red;
+		}
+
+		&:hover {
+			box-shadow: 0px 0px 13px 6px $red;
+		}
+	}
+
+	.link-yadisk {
+		color: white;
+		text-decoration: none;
+		font-size: 1.6rem;
+		display: flex;
+
+		svg {
+			margin-left: .6rem;
+		}
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4rem;
+}
+
+.left-right-side {
+	width: 40%;
+
+	video {
+		width: 100%;
+		border: $asphalt solid .4rem;
+		border-radius: 1rem;
+	}
+}
+
+.center-side {
+	.translate-buttons {
+		display: block;
+		background-color: $red;
+		color: $white;
+		border: none;
+		border-radius: .5rem;
+		cursor: pointer;
+		padding-block: .6rem;
+		padding-inline: 1rem;
+		font-size: 1.6rem;
+		font-weight: 500;
+		margin-bottom: 1rem;
+		transition: .2s ease-in-out;
+		max-width: 20rem;
+		min-width: 20rem;
+		text-align: center;
+		margin-inline: auto;
+		
+		&:hover {
+			color: $asphalt;
+			background-color: $white;
+		}
+	}
+
+	.line-center {
+		width: 40rem;
+		height: .4rem;
+		background-color: $asphalt;
+		margin-bottom: 1rem;
+		margin-block: 1rem;
+	}
+}
+
+

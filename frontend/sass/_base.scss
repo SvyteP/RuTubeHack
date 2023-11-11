@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: $darkblue;
+}
+
+.display-none {
+	opacity: 0;
+}
