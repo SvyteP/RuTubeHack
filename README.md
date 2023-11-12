@@ -13,5 +13,5 @@
  to_lang == "pt": # Port
  to_lang == "tr": # Turk
 
- P.S. К сожалению нам не хватило опыта и времени для полноценной реалиции проекта , поэтому так же хотим приложить наработки  по Frontend и Backend ```https://github.com/SvyteP/BackendStavropolRuTube```
+ P.S. К сожалению нам не хватило опыта и времени для полноценной реалиции проекта , поэтому так же хотим приложить наработки  по Frontend и Backend https://github.com/SvyteP/BackendStavropolRuTube
  ![image](https://github.com/SvyteP/RuTubeHack/assets/114248074/2dc7f255-8476-4275-9e6b-49ef77344bdd)
