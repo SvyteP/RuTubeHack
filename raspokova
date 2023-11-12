@@ -1,0 +1,7 @@
+faster_whisper
+transformers
+torch
+scipy
+bark 
+Audio
+write 
